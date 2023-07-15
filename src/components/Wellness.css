@@ -1,0 +1,65 @@
+.wellness{
+    display: flex;
+ /* margin-right: 20px; */
+width:90vw;
+height: 120px;
+justify-content: space-around;
+align-items: flex-start;
+gap: 6px;
+flex-shrink: 0;
+
+border-radius: 10px;
+background: linear-gradient(0deg, rgba(255, 255, 255, 0.20) 0%, rgba(255, 255, 255, 0.20) 100%), #EFEEFB;
+box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.16);
+}
+
+.overview{
+    width: 30%;
+    height: 90%;
+    /* border: 2px solid blue; */
+    text-align: center;
+} 
+
+.overwg{
+    width: 58px;
+height: 20px;
+flex-shrink: 0;
+color: #FA725F;
+font-size: 10px;
+
+
+border-radius: 10px;
+background: #FFF;
+}
+
+.heading{
+    color: #333;
+font-family: Roboto;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: 24px; /* 200% */
+
+
+
+}
+.wellnessDetails{
+    width: 30%;
+    height: 90%;
+    /* border: 2px solid green; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+}
+.details{
+    display: flex;
+    justify-content: space-around;
+    width: 100px;
+    height: 26px;
+    padding: 4px 26px 4px 11px;
+    align-items: center;
+    flex-shrink: 0;
+
+
+}
